@@ -17,10 +17,14 @@
 
 #c {
     border: 3px solid white;
+    width: 480px;
+    height: 125px;
 }
 
 #d {
     border: 3px solid white;
+    width: 480px;
+    height: 125px;
 }
 
 #row-cd {
@@ -30,18 +34,26 @@
 
 #e {
     border: 3px solid white;
+    width: 240px;
+    height: 250px;
 }
 
 #f {
     border: 3px solid white;
+    width: 240px;
+    height: 250px;
 }
 
 #g {
     border: 3px solid white;
+    width: 240px;
+    height: 250px;
 }
 
 #h {
     border: 3px solid white;
+    width: 240px;
+    height: 250px;
 }
 
 #row-efgh {
@@ -50,18 +62,24 @@
     margin-top: -18px;
 }
 
+#box-ef {
+    width: 240px;
+    height: 250px;
+    margin-top: -118px;
+}
+
 #box-gh {
     width: 240px;
     height: 250px;
-    margin-left: 240px;
-    margin-top: -112px;
+    margin-left: 244px;
+    margin-top: -512px;
 }
 
-#i { 
+#i-box {
     border: 3px solid white;
     width: 480px;
     height: 80px;
-    margin-top: -140px;
+    margin-top: 510px;    
 }
 
 @media all and (min-width: 480px) {
@@ -81,9 +99,11 @@ html {
     height: 600px;
 }
 
-#row-cd {
+#c {
     width: 380px;
     height: 200px;
+    margin-left: 204px;
+    margin-top: -460px;
 }
 
 #row-efgh {
