@@ -1,0 +1,168 @@
+ html {
+    background-color: purple;
+    max-width: 960px;
+} 
+
+#a {
+    border: 3px solid white;
+    width: 480px;
+    height: 75px;
+}
+
+#b {
+    border: 3px solid white;
+    width: 480px;
+    height: 150px;
+}
+
+#c {
+    border: 3px solid white;
+    width: 480px;
+    height: 125px;
+}
+
+#d {
+    border: 3px solid white;
+    width: 480px;
+    height: 125px;
+}
+
+#row-cd {
+    width: 480px;
+    height: 125px;
+}
+
+#e {
+    border: 3px solid white;
+    width: 240px;
+    height: 250px;
+}
+
+#f {
+    border: 3px solid white;
+    width: 240px;
+    height: 250px;
+}
+
+#g {
+    border: 3px solid white;
+    width: 240px;
+    height: 250px;
+}
+
+#h {
+    border: 3px solid white;
+    width: 240px;
+    height: 250px;
+}
+
+#row-efgh {
+    width: 240px;
+    height: 250px;
+    margin-top: -18px;
+}
+
+#box-ef {
+    width: 240px;
+    height: 250px;
+    margin-top: -118px;
+}
+
+#box-gh {
+    width: 240px;
+    height: 250px;
+    margin-left: 244px;
+    margin-top: -512px;
+}
+
+#i-box {
+    border: 3px solid white;
+    width: 480px;
+    height: 80px;
+    margin-top: 510px;    
+}
+
+@media all and (min-width: 480px) {
+
+html {
+    width: 960px;
+    background-color: purple;
+}
+
+#a {
+    width: 960px;
+    height: 100px;
+}
+
+#b {
+    width: 200px;
+    height: 600px;
+}
+
+#c {
+    width: 380px;
+    height: 200px;
+    margin-left: 204px;
+    margin-top: -608px;
+}
+
+#d {
+    width: 380px;
+    height: 200px;
+    margin-left: 590px;
+    margin-top: -206px;
+}
+
+#e {
+    width: 190px;
+    height: 250px;
+    margin-left: 204px;
+    margin-top: -54px;
+}
+
+#f {
+    width: 190px;
+    height: 250px;
+    margin-left: 400px;
+    margin-top: -256px;
+}
+
+#box-ef {
+    width: 190px;
+    height: 250px;
+    margin-top: -118px;
+}
+
+#g {
+    width: 190px;
+    height: 250px;
+    margin-left: 352px;
+    margin-top: 256px;
+}
+
+#h {
+    width: 190px;
+    height: 250px;
+    margin-left: 548px;
+    margin-top: -256px;
+}
+
+#box-gh {
+    width: 190px;
+    height: 250px;
+}
+
+#row-efgh {
+    width: 190px;
+    height: 250px;
+}
+
+#i-box { 
+    border: 3px solid white;
+    width: 760px;
+    height: 150px;
+    margin-left: 204px;
+    margin-top: 200px;
+}
+
+}
